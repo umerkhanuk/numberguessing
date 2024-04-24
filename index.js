@@ -1,3 +1,4 @@
+#!/usr/bin/env node
 import inquirer from "inquirer";
 let game = await inquirer.prompt([
     {
@@ -6,7 +7,8 @@ let game = await inquirer.prompt([
         name: "guess",
     },
 ]);
-let number = Math.random();
+// let score = 0;
+let number = Math.floor(Math.random() * 5 + 1);
 if (game.guess === number) {
     console.log("You Won you guessed the right number");
 }

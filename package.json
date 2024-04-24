@@ -1,6 +1,6 @@
 {
   "name": "numberguessingby-uk",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A number guessing game.Guess the write the number to Win.",
   "main": "index.js",
   "type": "module",
